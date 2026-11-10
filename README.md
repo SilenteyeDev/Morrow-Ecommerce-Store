@@ -1,4 +1,4 @@
-# Morrow Supply Co.
+# Morrow Ecommerce Store
 
 **Considered essentials. Everyday living.**
 
