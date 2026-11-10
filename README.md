@@ -1,32 +1,169 @@
 # Morrow Supply Co.
 
-A responsive storefront concept for a considered everyday goods brand. Built with React, Vite, and Tailwind CSS, with a warm editorial visual system based on the supplied reference screenshots.
+**Considered essentials. Everyday living.**
 
-## Highlights
+A responsive ecommerce storefront concept for a modern everyday goods brand. Morrow Supply Co. combines a warm editorial aesthetic with an interactive shopping experience, built using React, Vite, and Tailwind CSS.
 
-- Responsive desktop and mobile layouts with editorial hero, collection, story, newsletter, and footer sections.
-- Search, department filters, price sorting, favorites, and an interactive bag with quantity controls and subtotal.
-- 18 sample products with star ratings, review counts, stock cues, price bands, top-rated sorting, and cart add-on suggestions.
-- Cart and favorites persist in browser local storage.
-- Accessible labels, keyboard dismissal for the cart, reduced-motion support, and page metadata.
-- Vite production build, local preview, favicon, and Netlify/Vercel deployment configuration.
+The design focuses on clean layouts, thoughtful typography, product discovery, and a smooth shopping interface across desktop and mobile devices.
 
-## Run locally
+---
 
-Requires Node.js 20 or later.
+## Preview
 
-```sh
+*A modern storefront featuring an editorial hero, curated product collections, brand storytelling, and an interactive shopping bag.*
+
+---
+
+## Features
+
+### Storefront Experience
+- Responsive desktop and mobile layouts.
+- Editorial hero section and curated product collections.
+- Brand story, newsletter section, and custom footer.
+- Warm visual identity inspired by contemporary lifestyle brands.
+
+### Product Discovery
+- 18 sample products.
+- Product search functionality.
+- Department-based filtering.
+- Price sorting and top-rated sorting.
+- Product ratings, review counts, stock indicators, and price ranges.
+- Product recommendations and cart add-on suggestions.
+
+### Shopping Experience
+- Interactive shopping bag with quantity controls.
+- Automatic subtotal calculation.
+- Add-to-cart functionality.
+- Product favorites and wishlist interactions.
+- Cart and favorites persist using browser local storage.
+
+### Accessibility & Performance
+- Accessible labels and interface controls.
+- Keyboard dismissal for the shopping cart.
+- Reduced-motion support.
+- Page metadata and custom favicon.
+- Optimized production builds through Vite.
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | Component-based UI |
+| Vite | Development server and build tooling |
+| Tailwind CSS | Styling and responsive layouts |
+| JavaScript | Application logic |
+| Local Storage | Persistent cart and favorites |
+| Unsplash | Product imagery |
+| Google Fonts | Typography |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 20 or later
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SilenteyeDev/Morrow-Ecommerce-Store.git
+```
+
+### 2. Navigate into the project
+
+```bash
+cd Morrow-Ecommerce-Store
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm start
 ```
 
-Open the local address printed by Vite. Create a production bundle with `npm run build`, then inspect it locally with `npm run preview`.
+Open the local URL printed in your terminal to view the storefront.
 
-## Deploy
+---
 
-- **Netlify:** Import the repository. `netlify.toml` sets the build command and `dist` output folder.
-- **Vercel:** Import the repository. `vercel.json` sets the build command and output folder.
+## Production Build
 
-## Demo scope
+Create an optimized production build:
 
-This is a portfolio storefront, not a live commerce backend. Checkout and newsletter submission are interface demos; payments, inventory, customer accounts, and email subscription services are not connected. Product photos and display fonts load from Unsplash and Google Fonts, so those visuals require internet access.
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+The generated production files are placed in the `dist/` directory.
+
+---
+
+## Deployment
+
+The project includes deployment configuration for both Netlify and Vercel.
+
+### Netlify
+1. Import the GitHub repository into Netlify.
+2. Netlify will use the configuration in `netlify.toml`.
+3. Build output: `dist/`.
+
+### Vercel
+1. Import the GitHub repository into Vercel.
+2. Vercel will use the configuration in `vercel.json`.
+3. Deploy the project.
+
+---
+
+## Project Scope & Limitations
+
+Morrow Supply Co. is a **front-end portfolio project**, not a fully operational ecommerce platform.
+
+The following features are currently interface demonstrations:
+
+- Checkout and payment processing.
+- Newsletter subscription.
+- Inventory management.
+- Customer accounts and authentication.
+- Backend order processing.
+
+No payment gateway, inventory database, customer management system, or email subscription service is connected.
+
+Product imagery and display fonts are loaded from Unsplash and Google Fonts, respectively, and therefore require an internet connection.
+
+---
+
+## Future Improvements
+
+- Backend integration and product database.
+- User authentication and customer accounts.
+- Real payment gateway integration.
+- Order management and checkout flow.
+- Live inventory and stock management.
+- Functional newsletter subscription.
+- Admin dashboard for managing products and orders.
+
+---
+
+## Repository
+
+**GitHub:** [SilenteyeDev/Morrow-Ecommerce-Store](https://github.com/SilenteyeDev/Morrow-Ecommerce-Store)
+
+---
+
+*Built as a frontend ecommerce concept to explore modern storefront design, responsive interfaces, and interactive shopping experiences.*
